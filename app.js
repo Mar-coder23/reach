@@ -25,8 +25,8 @@ for (let i = 0; i < numSegments; i++) {
 
 function setup() {
   createCanvas(710, 400);
-  strokeWeight(20);
-  stroke(255, 100);
+  strokeWeight(40);
+  stroke(25, 25, 25);
   noFill();
 
   x[x.length - 1] = width / 2; // Set base x-coordinate
@@ -34,7 +34,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(255, 100, 100);
 
   strokeWeight(20);
   ballX = ballX + 1.0 * ballXDirection;
